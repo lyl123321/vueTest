@@ -3,6 +3,9 @@ import App from './App.vue';
 import router from './router';
 
 import './router/middleware.js';
+import './modules/set-root-fontsize.js';
+
+import './assets/styles/index.scss';
 
 Vue.config.productionTip = false;
 
